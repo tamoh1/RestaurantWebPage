@@ -1,0 +1,180 @@
+
+
+	body
+		{
+			background-color:#53595f;
+			background-size : 100%;      
+			background-repeat : no-repeat;    
+			background-position :center center;     
+		}
+			a:link 		{color:#000000;}  /* unvisited link */
+			a:visited 	{color:#53595f;}  /* visited link */
+			a:hover 		{color:#ffffff;}  /* mouse over link */
+			a:active 	{color:#000000;}  /* selected link */
+		
+		#header
+			{
+				border-style : solid;
+				border-color : lightgrey;
+				margin : 0.5px;
+				background-color:black;
+				text-align:center;
+				color : lightgrey;
+
+			}
+
+				/*This is the list for the main menu*/
+				#buttonlist 
+					{
+						list-style-type : none;
+						margin : 5px;
+						padding : 0;
+					}
+ 
+					#buttonlist li
+						{
+							display:inline;
+						}
+	
+		#LEFT_COL
+			{   
+				float: left;
+				overflow: scroll;
+				border-style : solid;
+				border-width : 5px;
+				border-color: lightgrey;
+				width : 20%;
+				height : 625px;		
+				background-color:black;
+				color : lightgrey;
+				font-family : Times New Roman;
+				text-align:center;
+			}
+			
+		#RIGHT_COL
+			{       
+				float: right;
+				overflow: scroll;
+				border-style : solid;
+				border-width : 5px;
+				border-color: lightgrey;
+				width : 20%; 
+				height : 625px;
+				background-color:black;
+				color : lightgrey;
+				font-family : Times New Roman;
+				text-align:center;
+			}
+	
+				#specialslist LI
+					{
+						list-style-type : none;
+						text-align: center;
+						width : 85%;
+						margin-top : 10px;
+						margin-bottom : 10px;
+					}
+				
+				LI.listdeals
+					{
+						color : #ffb700;
+					}
+				
+				#welcome, #specdeals, #colorgold
+					{
+						color : #ffb700;
+					}
+	
+		#MAIN_COL
+			{        
+				color : lightgrey;
+				font-family : Times New Roman;
+				text-align:center;
+				margin-left : 22%;
+				margin-right : 22%;
+				padding : 5px;
+			}
+	
+				/*List styling for whole FoodMenu.html*/
+				#dailyspecials, #alacarte, #coffeechoices
+					{
+						list-style-type : none;
+						margin-left: auto;
+						margin-right: auto;
+						width : 70%;
+					}
+	
+					/*Styling to enhance certain sections/titles of the food menu, wine menu*/
+					DT.dayspecheader
+						{
+							font-weight : bold;
+							color : black;
+						}
+	
+					/*Styling to enhance certain sections/titles of the food menu, wine menu and contact details*/
+					DT.daysspec
+						{
+							text-decoration : underline;
+							color : #ffb700;
+						}
+	
+				/*Items below are the headers in FoodMenu.html & WCMenu.html & ContactMenu.html*/
+				#foodmenu, #cartemenu, #coffeemenu, #winemenu, #contactinfo, #reserveheader
+					{
+						color : black;
+						text-decoration : underline;
+					}
+	
+				#formpage, #listform
+					{
+						margin-left: auto;
+						margin-right: auto;
+						width : 85%;
+					}
+	
+					#formpage DT
+						{
+							list-style-type : none;
+							text-align : center;
+						}
+	
+				#reservepar
+					{
+						text-decoration : underline;
+						color : black;
+					}
+		
+				#tableform
+					{
+						text-align : center;
+						margin-left: auto;
+						margin-right: auto;
+					}
+	
+					DT.dinnerchoice
+						{
+							padding-bottom : 15px;
+						}
+			
+					P
+						{
+							text-align : center;
+							width:85%;
+							margin-left : auto;
+							margin-right : auto;
+						}
+				
+				#footer
+					{
+						border-style : solid;
+						border-color : lightgrey;
+						margin : 0.5px;
+						background-color:black;
+						text-align:center;
+						position: relative;
+						bottom: 0;
+						color : lightgrey;
+					}		
+	
+	
+ 
